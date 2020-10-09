@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.help-block {
+    color: #e3342f !important;
+    font-size: 0.9em;
+}
+
+.display-none {
+    display: none;
+}
+
+#app {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
